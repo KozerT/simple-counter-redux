@@ -1,6 +1,9 @@
 import classes from "./Auth.module.css";
 
 const Auth = () => {
+  const loginHandler = (event) => {
+    event.preventDefault();
+  };
   return (
     <main className={classes.auth}>
       <section>
